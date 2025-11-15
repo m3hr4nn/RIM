@@ -42,3 +42,40 @@ reports/
 # Excel files with real credentials
 servers.xlsx
 *_inventory.xlsx
+
+# Development artifacts
+*.csv
+*.txt
+*.pdf
+!requirements.txt
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Pytest cache
+.pytest_cache/
+.tox/
+
+# MyPy cache
+.mypy_cache/
+
+# Generated templates and dashboards (except examples)
+configs/zabbix/*.xml
+configs/grafana/**/*.json
+!configs/grafana/**/example-*.json
+
+# Vendor-specific data dumps
+vendor_data/
+redfish_dumps/
+*.dump
+
+# Documentation build
+docs/_build/
+site/
+_site/
+
+# Virtual environments (additional)
+.venv/
+virtualenv/
