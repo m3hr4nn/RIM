@@ -9,12 +9,12 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
 setup(
     name="redfish-management-suite",
     version="1.0.0",
-    author="Your Name",
-    author_email="your.email@company.com",
+    author="m3hr4nn",
+    author_email="",
     description="Professional DMTF Redfish-compliant server health monitoring",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/redfish-management-suite",
+    url="https://github.com/m3hr4nn/RIM",
     package_dir={"": "src"},
     packages=find_packages(where="src"),
     classifiers=[
